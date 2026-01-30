@@ -1,0 +1,74 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+package-lock.json
+
+# Testing
+/coverage
+backend/models
+backend/scripts
+backend/training
+
+# Production build
+/build
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+.pytest_cache/
+
+# Python version file
+backend/.python-version
+
+# Model weights (too large for GitHub — download or train locally)
+backend/models/*.pth
+backend/models/*.pt
+*.pth
+*.pt
+
+# Database files
+backend/chroma_db/
+backend/*.db
+
+# Knowledge base PDFs (too large for GitHub)
+backend/knowledge_base/
+
+# Training data
+backend/symbol_dataset/
+backend/legacy/
+backend/doctrine/
+
+# Upload directory
+backend/uploads/
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Poetry virtual environments
+backend/.venv/
+
+# Markdown docs (optional — remove this line if you want READMEs tracked)
+*.md
