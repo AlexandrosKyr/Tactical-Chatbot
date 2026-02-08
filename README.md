@@ -1,4 +1,4 @@
-# Tactical Intelligence
+# Tactical Intelligence Local Assistant
 
 An AI-powered terrain analysis assistant that performs Intelligence Preparation of the Battlefield (IPB) using real geographic data. It follows widely available NATO methodology and given a set of coordinates, it pulls actual infrastructure, elevation, and weather data from open geographic APIs and produces a structured IPB assessment covering terrain analysis (OAKOC), civil considerations (ASCOPE), threat evaluation, and enemy course of action development.
 
