@@ -119,13 +119,6 @@ Key parameters in [config.py](backend/config.py):
 | `CHILD_CHUNK_SIZE` | 300 | Child chunk size in characters |
 | `MIN_RELEVANCE_SCORE` | 0.5 | Cosine similarity threshold |
 
-## Tests
-
-```bash
-cd backend
-pytest tests/
-```
-
 ## Notes
 
 - Terrain data is cached in memory with a 1-hour TTL to avoid redundant API calls for the same area.
